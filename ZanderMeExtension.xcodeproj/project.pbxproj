@@ -15,6 +15,13 @@
 		52A029FB1C2FE5FC004A40F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A029F91C2FE5FC004A40F0 /* LaunchScreen.storyboard */; };
 		52A02A061C2FE5FC004A40F0 /* ZanderMeExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A02A051C2FE5FC004A40F0 /* ZanderMeExtensionTests.m */; };
 		52A02A111C2FE5FD004A40F0 /* ZanderMeExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A02A101C2FE5FD004A40F0 /* ZanderMeExtensionUITests.m */; };
+		52A02A741C2FEFE3004A40F0 /* expand_but_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A02A5A1C2FEFE3004A40F0 /* expand_but_icon@2x.png */; };
+		52A02A751C2FEFE3004A40F0 /* list_item_selected_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A02A5B1C2FEFE3004A40F0 /* list_item_selected_icon@2x.png */; };
+		52A02A781C2FEFE3004A40F0 /* ThemeProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A02A611C2FEFE3004A40F0 /* ThemeProperty.m */; };
+		52A02A7B1C2FEFE3004A40F0 /* UIView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A02A671C2FEFE3004A40F0 /* UIView+Custom.m */; };
+		52A02A7C1C2FEFE3004A40F0 /* UIViewController+InterfaceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A02A691C2FEFE3004A40F0 /* UIViewController+InterfaceOrientation.m */; };
+		52A02A7D1C2FEFE3004A40F0 /* UIViewController+NavgationTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A02A6B1C2FEFE3004A40F0 /* UIViewController+NavgationTitle.m */; };
+		52A02A7E1C2FEFE3004A40F0 /* WXAutoWrappingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A02A6D1C2FEFE3004A40F0 /* WXAutoWrappingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,18 @@
 		52A02A0C1C2FE5FD004A40F0 /* ZanderMeExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZanderMeExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A02A101C2FE5FD004A40F0 /* ZanderMeExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZanderMeExtensionUITests.m; sourceTree = "<group>"; };
 		52A02A121C2FE5FD004A40F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A02A5A1C2FEFE3004A40F0 /* expand_but_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expand_but_icon@2x.png"; sourceTree = "<group>"; };
+		52A02A5B1C2FEFE3004A40F0 /* list_item_selected_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_item_selected_icon@2x.png"; sourceTree = "<group>"; };
+		52A02A601C2FEFE3004A40F0 /* ThemeProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeProperty.h; sourceTree = "<group>"; };
+		52A02A611C2FEFE3004A40F0 /* ThemeProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeProperty.m; sourceTree = "<group>"; };
+		52A02A661C2FEFE3004A40F0 /* UIView+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Custom.h"; sourceTree = "<group>"; };
+		52A02A671C2FEFE3004A40F0 /* UIView+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Custom.m"; sourceTree = "<group>"; };
+		52A02A681C2FEFE3004A40F0 /* UIViewController+InterfaceOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+InterfaceOrientation.h"; sourceTree = "<group>"; };
+		52A02A691C2FEFE3004A40F0 /* UIViewController+InterfaceOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+InterfaceOrientation.m"; sourceTree = "<group>"; };
+		52A02A6A1C2FEFE3004A40F0 /* UIViewController+NavgationTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavgationTitle.h"; sourceTree = "<group>"; };
+		52A02A6B1C2FEFE3004A40F0 /* UIViewController+NavgationTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavgationTitle.m"; sourceTree = "<group>"; };
+		52A02A6C1C2FEFE3004A40F0 /* WXAutoWrappingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAutoWrappingView.h; sourceTree = "<group>"; };
+		52A02A6D1C2FEFE3004A40F0 /* WXAutoWrappingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAutoWrappingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +100,7 @@
 		52A029DF1C2FE5FC004A40F0 = {
 			isa = PBXGroup;
 			children = (
+				52A02A4F1C2FEFE3004A40F0 /* Source */,
 				52A029EA1C2FE5FC004A40F0 /* ZanderMeExtension */,
 				52A02A041C2FE5FC004A40F0 /* ZanderMeExtensionTests */,
 				52A02A0F1C2FE5FD004A40F0 /* ZanderMeExtensionUITests */,
@@ -138,6 +158,33 @@
 				52A02A121C2FE5FD004A40F0 /* Info.plist */,
 			);
 			path = ZanderMeExtensionUITests;
+			sourceTree = "<group>";
+		};
+		52A02A4F1C2FEFE3004A40F0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				52A02A591C2FEFE3004A40F0 /* Resources */,
+				52A02A601C2FEFE3004A40F0 /* ThemeProperty.h */,
+				52A02A611C2FEFE3004A40F0 /* ThemeProperty.m */,
+				52A02A661C2FEFE3004A40F0 /* UIView+Custom.h */,
+				52A02A671C2FEFE3004A40F0 /* UIView+Custom.m */,
+				52A02A681C2FEFE3004A40F0 /* UIViewController+InterfaceOrientation.h */,
+				52A02A691C2FEFE3004A40F0 /* UIViewController+InterfaceOrientation.m */,
+				52A02A6A1C2FEFE3004A40F0 /* UIViewController+NavgationTitle.h */,
+				52A02A6B1C2FEFE3004A40F0 /* UIViewController+NavgationTitle.m */,
+				52A02A6C1C2FEFE3004A40F0 /* WXAutoWrappingView.h */,
+				52A02A6D1C2FEFE3004A40F0 /* WXAutoWrappingView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		52A02A591C2FEFE3004A40F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52A02A5A1C2FEFE3004A40F0 /* expand_but_icon@2x.png */,
+				52A02A5B1C2FEFE3004A40F0 /* list_item_selected_icon@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +291,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				52A029FB1C2FE5FC004A40F0 /* LaunchScreen.storyboard in Resources */,
+				52A02A751C2FEFE3004A40F0 /* list_item_selected_icon@2x.png in Resources */,
+				52A02A741C2FEFE3004A40F0 /* expand_but_icon@2x.png in Resources */,
 				52A029F81C2FE5FC004A40F0 /* Assets.xcassets in Resources */,
 				52A029F61C2FE5FC004A40F0 /* Main.storyboard in Resources */,
 			);
@@ -270,9 +319,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A02A7B1C2FEFE3004A40F0 /* UIView+Custom.m in Sources */,
 				52A029F31C2FE5FC004A40F0 /* ViewController.m in Sources */,
 				52A029F01C2FE5FC004A40F0 /* AppDelegate.m in Sources */,
+				52A02A781C2FEFE3004A40F0 /* ThemeProperty.m in Sources */,
+				52A02A7D1C2FEFE3004A40F0 /* UIViewController+NavgationTitle.m in Sources */,
 				52A029ED1C2FE5FC004A40F0 /* main.m in Sources */,
+				52A02A7E1C2FEFE3004A40F0 /* WXAutoWrappingView.m in Sources */,
+				52A02A7C1C2FEFE3004A40F0 /* UIViewController+InterfaceOrientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
